@@ -239,3 +239,31 @@ wandb/
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Downloaded datasets
+road_damage_dataset/
+road-damage-dét-2/
+
+# Phases
+Phases.txt
+
+# Analysis of dataset
+analysis_output.txt
+
+# Model weights
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Training outputs
+runs/
+wandb/
+
+# Private project notes
+PROJECT_NOTES.txt
+
+# Environmnet variables and secrets
+.env
+.env.*
+!.env.example
+
